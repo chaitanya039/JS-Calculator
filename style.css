@@ -1,0 +1,77 @@
+/* body */
+body{
+    background-color: #eee;
+}
+
+.container{
+    border: 2px solid black;
+    border-radius: 9px;
+    display: inline-block;
+    text-align: center;
+    padding: 22px;
+    background-color: rgb(247, 228, 194);
+    
+}
+
+.calculator{
+    padding: 40px;
+    display: inline-block;
+    background-color: rgb(255, 215, 221);
+    border-radius: 55px;
+    box-shadow: 2px 2px 4px 0.1px black;
+}
+
+table{
+    margin: auto;
+}
+
+input{
+    width: 400px;
+    height: 60px;
+    margin: 11px 0px;
+    font-size: 1.7rem;
+    padding: 0px 22px;
+}   
+
+
+button{
+    width: 100px;
+    height: 60px;
+    margin: 5px;
+    font-size: 35px;
+    border: 1px solid black;
+    border-radius: 6px;
+    /* box-shadow: 2px 2px 5px 1px black; */
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: white;
+    box-shadow: 2px 2px 4px 0.3px black;
+}
+
+button img{
+    width: 62%;
+    height: 85%;
+    position: relative;
+    top: 4px;
+}
+
+.card{
+    text-align: center;
+}
+
+#head1{
+    color: orangered;
+    /* font-family: 'Staatliches', cursive; */
+    font-family: 'Philosopher', sans-serif;
+    font-size: 3rem;
+
+}
+
+#head2{
+    color: black;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 2rem;
+    font-weight: lighter;
+}
